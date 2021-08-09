@@ -1,0 +1,152 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-1, 
+.container-2, 
+.container-3, 
+.container-4, 
+.container-5 {
+  margin: 5px auto;
+  width: 75%;
+  padding: 20px 30px;
+  border: 2px solid black;
+  text-align: center;
+  background-color: indigo;
+}
+
+/* .btn {
+  border: none;
+} */
+/* Global Styles */
+
+/* Challenge 1 Styles */
+.container-flexbox-1 {
+  display: flex;
+  padding: 10px 20px;
+  border: 1px dashed black;
+}
+
+.container-flexbox-1 .header-box {
+  width: 100%;
+  display: block;
+  padding: 10px 30px;
+  border: 1px dashed black;
+}
+
+.container-flexbox-1 .body-box {
+  width: 100%;
+  display: block;
+  padding: 10px 30px;
+  border: 1px dashed black;
+}
+
+.container-flexbox-1 .body-box .button-box {
+  padding: 10px 20px;
+  border: 1px dashed black;
+}
+/* Challenge 1 Styles */
+
+/* Challenge 2 Styles */
+.container-flexbox-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px 20px;
+  border: 1px dashed black;
+}
+
+.container-flexbox-2 .header-box {
+  width: 100%;
+  display: block;
+  padding: 10px 30px;
+  border: 1px dashed black;
+}
+
+.container-flexbox-2 .button-box {
+  width: 100%;
+  display: block;
+  padding: 10px 30px;
+  border: 1px dashed black;
+}
+/* Challenge 2 Styles */
+
+/* Challenge 3 Styles */
+.container-flexbox-3 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+  border: 1px dashed black;
+}
+
+.container-flexbox-3 .header-box {
+  border: 1px dashed black;
+  justify-content: center;
+  width: 100%;
+  display: block;
+}
+
+.container-flexbox-3 .body-box {
+  border: 1px dashed black;
+  width: 100%;
+  display: block;
+}
+
+.container-flexbox-3 .body-box img:hover {
+  box-shadow: 0px 10px 50px black;
+}
+/* Challenge 3 Styles */
+
+/* Challenge 4 Styles */
+.container-flexbox-4 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 20px;
+  border: 1px dashed black;
+}
+
+.container-flexbox-4 .header-box {
+  border: 1px dashed black;
+  justify-content: center;
+  width: 100%;
+  display: block;
+}
+
+.container-flexbox-4 .body-box {
+  border: 1px dashed black;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+/* Challenge 4 Styles */
+
+/* Challenge 5 Styles */
+.flex-blackjack-row-1, 
+.flex-blackjack-row-2, 
+.flex-blackjack-row-3 {
+  display: flex;
+  border: 1px dashed black;
+  padding: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #fff;
+  background-image: url('img/blackjack-table.jpg');
+}
+
+.flex-blackjack-row-1 div {
+  padding: 10px;
+  border: 1px solid black;
+  flex: 1;
+  text-align: center;
+  height: 350px;
+}
+
+table, th, td {
+  padding: 5px;
+  border: 2px solid black;
+}
+/* Challenge 5 Styles */

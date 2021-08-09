@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <title>JavaScript</title>
+</head>
+
+<body style="background-color: indigo;">
+  <div class="container-1">
+
+    <div class="container-flexbox-1">
+      <div class="header-box">
+        <h1>Challenge 1: Your Age in Days</h1>
+      </div>
+      <div class="body-box">
+        <div class="button-box">
+          <button class="btn btn-primary btn-block" onclick="ageInDays()">Click Me</button>
+        </div>
+        <div class="button-box">
+          <button class="btn btn-danger btn-block" onclick="reset()">Reset</button>
+        </div>
+      </div>
+    </div>
+    <div class="container-flexbox-1">
+      <div id="flexbox-result"></div>
+    </div>
+
+  </div>
+
+  <div class="container-2">
+
+    <div class="container-flexbox-2">
+      <div class="header-box">
+        <h1>Challenge 2: Image Generator</h1>
+      </div>
+      <div class="button-box">
+        <button class="btn btn-success btn-block" id="img-gen-button" onclick="generateImg()">Generate Image</button>
+        <button class="btn btn-danger btn-block" id="img-rem-button" onclick="removeImg()">Remove Image</button>
+      </div>
+    </div>
+    <div class="container-flexbox-2" id="flex-img-gen"></div>
+
+  </div>
+
+  <div class="container-3">
+
+    <div class="container-flexbox-3">
+      <div class="header-box">
+        <h1>Challenge 3: Rock, Paper, Scissors Game</h1>
+      </div>
+      <div class="body-box" id="body-box">
+        <img src="img/rock.png" id="rock" width="150" height="150" onclick="esGame(this)" alt="Rock img" />
+        <img src="img/paper.png" id="paper" width="150" height="150" onclick="esGame(this)" alt="Paper img" />
+        <img src="img/scissors.png" id="scissors" width="150" height="150" onclick="esGame(this)" alt="Scissors img" />
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container-4">
+
+    <div class="container-flexbox-4">
+      <div class="header-box">
+        <h1>Challenge 4: Change the Color of All Buttons</h1>
+      </div>
+      <div class="body-box">
+        <form action="">
+          <select name="backdrop" id="background" onchange="buttonColorChange(this)">
+            <option value="random">Random</option>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="yellow">Yellow</option>
+            <option value="green">Green</option>
+            <option value="reset">Reset</option>
+          </select>
+        </form>
+        <button class="btn btn-primary" id="btn-game">X</button>
+        <button class="btn btn-danger" id="btn-game">Joji</button>
+        <button class="btn btn-warning" id="btn-game">Lil Bo Peep</button>
+        <button class="btn btn-success" id="btn-game">Anoter else</button>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container-5">
+    <h2>Challenge 5: Blackjack</h2>
+    <h3><span id="blackjack-result">Let's Play</span></h3>
+    <div class="flex-blackjack-row-1">
+      <div class="your-box">
+        <h2>You: <span id="your-blackjack-result">0</span></h2>
+      </div>
+      <div class="dealer-box">
+        <h2>Dealer: <span id="dealer-blackjack-result">0</span></h2>
+      </div>
+    </div>
+    <div class="flex-blackjack-row-2">
+      <button class="btn-lg btn-primary" id="blackjack-hit-button">Hit</button>
+      <button class="btn-lg btn-warning" id="blackjack-stand-button">Stand</button>
+      <button class="btn-lg btn-danger" id="blackjack-deal-button">Deal</button>
+    </div>
+    <div class="flex-blackjack-row-3">
+      <table>
+        <tr>
+          <th>Wins</th>
+          <th>Losses</th>
+          <th>Draws</th>
+        </tr>
+        <tr>
+          <td><span id="wins">0</span></td>
+          <td><span id="losses">0</span></td>
+          <td><span id="draws">0</span></td>
+        </tr>
+      </table>
+    </div>
+
+  </div>
+
+
+  <script src="example.js"></script>
+</body>
+
+</html>
